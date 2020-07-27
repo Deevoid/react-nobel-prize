@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://api.nobelprize.org/v1/prize.json")
+      .get("https://api.nobelprize.org/v1/prize.json")
       .then((res) => {
         setNobel(res.data.prizes);
         const arrCategory = [
