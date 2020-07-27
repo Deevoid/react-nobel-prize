@@ -1,0 +1,134 @@
+@import "./global";
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.evqoKx {
+  top: -150% !important;
+}
+.styles_scroll-to-top__2A70v {
+  svg {
+    height: 20px;
+    width: 20px;
+  }
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  border-bottom: 1px solid #e6e6e6;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-size: 1.2rem;
+    font-weight: 550;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  background: #415e74;
+  color: #fff;
+  padding: 0.3rem;
+  a {
+    color: #fff;
+    padding: 0 0.5rem;
+    text-decoration: underline;
+  }
+}
+.grid {
+  margin: 2rem 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  max-width: 400px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ffffff, #dddddd);
+  box-shadow: 20px 20px 67px #d0d0d0, -20px -20px 67px #ffffff;
+
+  .card-head {
+    margin: 0.5rem 0;
+    .year {
+      background: rgb(255, 150, 150);
+      padding: 0.3rem 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      border-radius: 20px;
+      margin: 0 0.5rem 0 0;
+    }
+    .category {
+      text-transform: uppercase;
+      padding: 0.3rem 0.5rem;
+      font-size: 0.9rem;
+      background: #c395ff;
+      font-weight: 500;
+      border-radius: 20px;
+    }
+  }
+  .card-body {
+    margin: 1rem 0;
+    p {
+      font-weight: 500;
+      margin: 1rem 0;
+      padding: 0 0 0 0.5rem;
+      border-left: solid 2px #6f00ff;
+    }
+  }
+}
+.top-four {
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 400px;
+  text-align: center;
+  padding: 1rem;
+  p {
+    margin: 1rem;
+    font-weight: 500;
+  }
+}
+.MuiAutocomplete-root {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 0.8rem;
+}
+
+.filter-box {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background: #f5f5f5;
+  padding: 1rem;
+  .form-btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-btn {
+    margin-right: 0.5rem;
+    width: 6rem;
+    padding: 0.5rem;
+    background: transparent;
+    border: solid 2px #6f00ff;
+    border-radius: 10px;
+  }
+}
+.error {
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+}

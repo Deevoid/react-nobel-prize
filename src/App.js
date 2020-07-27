@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Data from "./components/Data";
+import { Gradient } from "react-gradient";
+import { Ripple } from "react-preloaders";
+import ScrollToTop from "react-scroll-to-top";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <Ripple color={"#6f00ff"} animation="slide" time={3000} />
+      <ScrollToTop smooth color="#6f00ff" />
+      <header className="header">
+        <Gradient
+          gradients={[
+            ["#6f00ff", "#9CA2FF"],
+            ["#FF47F4", "#6DFF5C"],
+          ]}
+          property="text"
+          duration="2000"
+          element="h1"
+          angle="30deg"
+          className="text"
         >
-          Learn React
-        </a>
+          Nobel Prize
+        </Gradient>
       </header>
-    </div>
+      <main className="main">
+        <Data />
+      </main>
+      <footer className="header">
+        Developed by
+        <a href="https://deevoid.netlify.app/" rel="noopener noreferrer">
+          Dev
+        </a>
+      </footer>
+    </>
   );
 }
-
-export default App;
