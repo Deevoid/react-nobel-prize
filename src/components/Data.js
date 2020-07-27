@@ -51,7 +51,6 @@ function App() {
     const map4 = map3.filter((item) => {
       return !item.includes("International") && !item.includes("Office");
     });
-    console.log(map4);
     setTop(map4);
   }
 
