@@ -77,8 +77,6 @@ function App() {
       });
       setShowNobel(false);
       setFilter(filteredArray);
-      console.log(filteredArray);
-      console.log(year, category);
     }
   }
   function Reset() {

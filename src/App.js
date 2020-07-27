@@ -1,13 +1,11 @@
 import React from "react";
 import Data from "./components/Data";
 import { Gradient } from "react-gradient";
-import { Ripple } from "react-preloaders";
 import ScrollToTop from "react-scroll-to-top";
 
 export default function App() {
   return (
     <>
-      <Ripple color={"#6f00ff"} animation="slide" time={3000} />
       <ScrollToTop smooth color="#6f00ff" />
       <header className="header">
         <Gradient
